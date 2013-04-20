@@ -2,8 +2,8 @@
 #define _TYPES_H_
 
 
-typedef unsigned long UInt32;
-typedef signed long Int32;
+typedef unsigned int UInt32;
+typedef signed int Int32;
 typedef unsigned short UInt16;
 typedef signed short Int16;
 typedef unsigned char UInt8;

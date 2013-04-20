@@ -39,7 +39,7 @@ ifeq ($(BUILD), opt64)
 endif
 
 LDFLAGS = $(LD_FLAGS) -Wall -Wextra
-CCFLAGS = $(CC_FLAGS) -Wall -Wextra
+CCFLAGS = $(CC_FLAGS) -Wall -Wextra -D_DARWIN_
 
 OBJS	= $(EXTRA_OBJS) rt.o math64.o CPU.o MMU.o cp15.o mem.o RAM.o callout_RAM.o SoC.o pxa255_IC.o icache.o pxa255_TIMR.o pxa255_RTC.o pxa255_UART.o pxa255_PwrClk.o pxa255_GPIO.o pxa255_DMA.o pxa255_DSP.o pxa255_LCD.o
 
